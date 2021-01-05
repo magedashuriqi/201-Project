@@ -1,22 +1,27 @@
 body{
-    background-color: rgb(161, 138, 108);
+    background-image: url(https://image.freepik.com/free-vector/leaves-background-with-metallic-foil_79603-914.jpg);
+  color: rgb(24, 32, 24);
    
 
     
     
 }
 h1{
-    background-color: aliceblue; opacity: 0.8;
+    background-color: rgb(156, 199, 156);
     text-align: center;
 }
-h3{
+h3,p,h2{
     font-family: 'Times New Roman', Times, serif;
-    background-color: aliceblue; opacity: 0.8;
+    background-color:  rgb(156, 199, 156);
 }
 
 li{
-    background-color: aliceblue; opacity: 0.8;
+    background-color:  rgb(156, 199, 156);
 
     margin: 20px;
     padding: 10px;
+}
+.list{
+    display: inline-block;
+    text-align: center;
 }

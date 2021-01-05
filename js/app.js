@@ -6,15 +6,15 @@ confirm("Hi " + userName + ", now we will do a small guess, are you ready?")
 var myCountry = prompt("Do you think that I am from Jordan?")
 if (myCountry.toLowerCase() == 'y' || myCountry.toLowerCase() == 'yes') {
     alert('No, that is wrong, Iam from syria ^^')
-    myCountry=0
+    myCountry = 0
     //console.log("No, that is wrong, Iam from syria ^^")
 } else if (myCountry.toLowerCase() == 'n' || myCountry.toLowerCase() == 'no') {
     alert('That is correct!, Iam from syria ^^')
     //console.log("That is correct!, Iam from syria")
-    myCountry=1
+    myCountry = 1
 } else {
     alert('Sorry, your input is not valied!')
-    myCountry=0
+    myCountry = 0
 }
 //console.log("Sorry, your input is not valied!"")
 
@@ -22,15 +22,15 @@ if (myCountry.toLowerCase() == 'y' || myCountry.toLowerCase() == 'yes') {
 var myExperience = prompt("Do you think that I work before?")
 if (myExperience.toLowerCase() == 'y' || myExperience.toLowerCase() == 'yes') {
     alert('That is right!, you will know more in the website ^^')
-    myExperience =1
+    myExperience = 1
     //console.log("That is right!, you will know more in the website ^^")
 } else if (myExperience.toLowerCase() == 'n' || myExperience.toLowerCase() == 'no') {
     alert('wrong answer !^^')
-    myExperience =0
+    myExperience = 0
     //console.log("wrong answer !^^")
 } else {
     alert('Sorry, your input is not valied!')
-    myExperience =0
+    myExperience = 0
 }
 //console.log("Sorry, your input is not valied!"")
 
@@ -41,41 +41,41 @@ if (favColor.toLowerCase() == 'y' || favColor.toLowerCase() == 'yes') {
     //console.log("wrong answer !^^")
 } else if (favColor.toLowerCase() == 'n' || favColor.toLowerCase() == 'no') {
     alert('That is right!')
-    favColor=1
+    favColor = 1
     //console.log("That is right!")
 } else {
     alert('Sorry, your input is not valied!')
-    favColor=0
+    favColor = 0
 }
 //console.log("Sorry, your input is not valied!")
 
 var myHobbies = prompt("Do you think that I can draw?")
 if (myHobbies.toLowerCase() == 'y' || myHobbies.toLowerCase() == 'yes') {
     alert('That is right!')
-    myHobbies =1
+    myHobbies = 1
     //console.log ("That is right!")
 } else if (myHobbies.toLowerCase() == 'n' || myHobbies.toLowerCase() == 'no') {
     alert('wrong answer !^^')
-    myHobbies =0
+    myHobbies = 0
     //console.log ("wrong answer !^^")
 } else {
     alert('Sorry, your input is not valied!')
-    myHobbies =0
+    myHobbies = 0
 }
 //console.log ("Sorry, your input is not valied!")
 
 var myAge = prompt("Do you think that I was born in 1997?")
 if (myAge.toLowerCase() == 'y' || myAge.toLowerCase() == 'yes') {
     alert('That is right! ' + userName)
-    myAge=1
+    myAge = 1
     //console.log ("That is right!")
 } else if (myAge.toLowerCase() == 'n' || myAge.toLowerCase() == 'no') {
     alert('wrong answer !^^ ' + userName)
-    myAge=0
+    myAge = 0
     //console.log ("wrong answer !^^")
 } else {
     alert('Sorry, your input is not valied! ' + userName)
-    myAge=0
+    myAge = 0
 }
 //console.log ("Sorry, your input is not valied!")
 
@@ -98,28 +98,28 @@ while (i < 4) {
     }
     i++;
 }
-if (userGuess === 7){
-    userGuess=1
-}else{
-    userGuess=0
+if (userGuess === 7) {
+    userGuess = 1
+} else {
+    userGuess = 0
 }
 alert('The correct answer is 7 <3')
 
-var a=0;  
- var colors= ["red","blue","pink","grey","green","black" ];
- var colorGuess ;
- while (a<6) {
-     colorGuess =(prompt('guess a color'))
- if (colorGuess.toLowerCase() == colors[0] ||colorGuess.toLowerCase() == colors[1] || colorGuess.toLowerCase() == colors[2]|| colorGuess.toLowerCase() == colors[3]|| colorGuess.toLowerCase() == colors[4]||colorGuess.toLowerCase() == colors[5]){
-     alert('correct! <3')
-     colorGuess =1
-     break;
- }else{
-     alert('wrong answer :P')
-     colorGuess = 0
- }
-         a++;
-         console.log(colorGuess);
-     }
+var a = 0;
+var colors = ["red", "blue", "pink", "grey", "green", "black"];
+var colorGuess;
+while (a < 6) {
+    colorGuess = (prompt('guess a color'))
+    if (colorGuess.toLowerCase() == colors[0] || colorGuess.toLowerCase() == colors[1] || colorGuess.toLowerCase() == colors[2] || colorGuess.toLowerCase() == colors[3] || colorGuess.toLowerCase() == colors[4] || colorGuess.toLowerCase() == colors[5]) {
+        alert('correct! <3')
+        colorGuess = 1
+        break;
+    } else {
+        alert('wrong answer :P')
+        colorGuess = 0
+    }
+    a++;
+    console.log(colorGuess);
+}
 
-        alert('your score is '+(userGuess+myAge+myCountry+myExperience+colorGuess+ myHobbies+favColor)+'/7')
+alert('your score is ' + (userGuess + myAge + myCountry + myExperience + colorGuess + myHobbies + favColor) + '/7')
