@@ -109,7 +109,7 @@ var a = 0;
 var colors = ["red", "blue", "pink", "grey", "green", "black"];
 var colorGuess;
 while (a < 6) {
-    colorGuess = (prompt('guess a color'))
+    colorGuess = (prompt('guess a color'));
     if (colorGuess.toLowerCase() == colors[0] || colorGuess.toLowerCase() == colors[1] || colorGuess.toLowerCase() == colors[2] || colorGuess.toLowerCase() == colors[3] || colorGuess.toLowerCase() == colors[4] || colorGuess.toLowerCase() == colors[5]) {
         alert('correct! <3')
         colorGuess = 1

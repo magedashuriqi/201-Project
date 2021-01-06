@@ -1,14 +1,14 @@
 body{
     background-image: url(https://image.freepik.com/free-vector/leaves-background-with-metallic-foil_79603-914.jpg);
-  color: rgb(24, 32, 24);
-   
+  color: rgb(36, 49, 36);
+   font-family: 'Times New Roman', Times, serif;
 
     
     
 }
 h1{
     background-color: rgb(156, 199, 156);
-    text-align: center;
+    
 }
 h3,p,h2{
     font-family: 'Times New Roman', Times, serif;
@@ -17,7 +17,6 @@ h3,p,h2{
 
 li{
     background-color:  rgb(156, 199, 156);
-
     margin: 20px;
     padding: 10px;
 }
