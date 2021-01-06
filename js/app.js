@@ -3,6 +3,27 @@
 var userName = prompt("what is your name?")
 confirm("Hi " + userName + ", now we will do a small guess, are you ready?")
 
+// first question
+function guessCountry(){
+    var myCountry = prompt("Do you think that I am from Jordan?")
+if (myCountry.toLowerCase() == 'y' || myCountry.toLowerCase() == 'yes') {
+    alert('No, that is wrong, Iam from syria ^^')
+    myCountry = 0
+    //console.log("No, that is wrong, Iam from syria ^^")
+} else if (myCountry.toLowerCase() == 'n' || myCountry.toLowerCase() == 'no') {
+    alert('That is correct!, Iam from syria ^^')
+    //console.log("That is correct!, Iam from syria")
+    myCountry = 1
+} else {
+    alert('Sorry, your input is not valied!')
+    myCountry = 0
+
+}
+return myCountry ;
+}
+guessCountry();
+/*
+} 
 var myCountry = prompt("Do you think that I am from Jordan?")
 if (myCountry.toLowerCase() == 'y' || myCountry.toLowerCase() == 'yes') {
     alert('No, that is wrong, Iam from syria ^^')
@@ -17,8 +38,26 @@ if (myCountry.toLowerCase() == 'y' || myCountry.toLowerCase() == 'yes') {
     myCountry = 0
 }
 //console.log("Sorry, your input is not valied!"")
-
-
+*/
+// second question
+function guessExperiance(){
+    var myExperience = prompt("Do you think that I work before?")
+if (myExperience.toLowerCase() == 'y' || myExperience.toLowerCase() == 'yes') {
+    alert('That is right!, you will know more in the website ^^')
+    myExperience = 1
+    //console.log("That is right!, you will know more in the website ^^")
+} else if (myExperience.toLowerCase() == 'n' || myExperience.toLowerCase() == 'no') {
+    alert('wrong answer !^^')
+    myExperience = 0
+    //console.log("wrong answer !^^")
+} else {
+    alert('Sorry, your input is not valied!')
+    myExperience = 0
+}
+return myExperience();
+}
+guessExperiance();
+/*
 var myExperience = prompt("Do you think that I work before?")
 if (myExperience.toLowerCase() == 'y' || myExperience.toLowerCase() == 'yes') {
     alert('That is right!, you will know more in the website ^^')
@@ -33,7 +72,7 @@ if (myExperience.toLowerCase() == 'y' || myExperience.toLowerCase() == 'yes') {
     myExperience = 0
 }
 //console.log("Sorry, your input is not valied!"")
-
+*/
 var favColor = prompt("Do you think that I love green?")
 if (favColor.toLowerCase() == 'y' || favColor.toLowerCase() == 'yes') {
     alert('wrong answer !^^')
