@@ -3,7 +3,6 @@ var score = 0;
 var userName = prompt("what is your name?")
 confirm("Hi " + userName + ", now we will do a small guess, are you ready?")
 
-// first question
 function guessCountry() {
     var myCountry = prompt("Do you think that I am from Jordan?")
     if (myCountry.toLowerCase() == 'y' || myCountry.toLowerCase() == 'yes') {
@@ -21,7 +20,7 @@ function guessCountry() {
 }
 guessCountry();
 
-// second question
+
 function guessExperiance() {
     var myExperience = prompt("Do you think that I work before?")
     if (myExperience.toLowerCase() == 'y' || myExperience.toLowerCase() == 'yes') {
@@ -57,7 +56,7 @@ function gueesfavColor() {
 gueesfavColor();
 
 
-// question four
+
 function guessHobbies() {
     var myHobbies = prompt("Do you think that I can draw?")
     if (myHobbies.toLowerCase() == 'y' || myHobbies.toLowerCase() == 'yes') {
@@ -74,7 +73,7 @@ function guessHobbies() {
 }
 guessHobbies();
 
-// question five
+
 function gueesAge() {
     var myAge = prompt("Do you think that I was born in 1997?")
     if (myAge.toLowerCase() == 'y' || myAge.toLowerCase() == 'yes') {
@@ -91,7 +90,6 @@ function gueesAge() {
 }
 gueesAge();
 
-// question six
 function gueesNumber() {
     alert('You will start a guess game')
     var i = 0;
@@ -119,7 +117,7 @@ function gueesNumber() {
 }
 gueesNumber();
 
-// question seven
+
 function gueesColor() {
     var a = 0;
     var colors = ["red", "blue", "pink", "grey", "green", "black"];
